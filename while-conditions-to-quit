@@ -1,0 +1,8 @@
+p = "\n Tell me what you want to do:"
+p += "\n Enter 'quit','stop','exit' to stop p!"
+message = ""
+stops = ['exit','quit','stop']
+while message not in stops:
+#while message != 'quit' and message != 'exit':
+    message = input(p)
+    print(message)
